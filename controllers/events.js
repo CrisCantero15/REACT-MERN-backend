@@ -149,11 +149,6 @@ const eliminarEvento = async ( req, res = response ) => {
 
     }
 
-    res.status(200).json({
-        ok: true,
-        msg: 'eliminarEvento'
-    });
-
 }
 
 module.exports = {
